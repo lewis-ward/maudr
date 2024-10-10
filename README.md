@@ -9,4 +9,4 @@ If you're coming here after my talk at useR, I uploaded my presentation here as 
 with the full script and example data that I used in the gif demo, so that you can reproduce the whole script right now, 
 without waiting for us to finish the package ;-).
 
-This is another test.
+Testing creating a new branch of the fork.
