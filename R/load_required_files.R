@@ -40,7 +40,7 @@ load_required_files <- function() {
         load(file_path)  # For .rda files
       } else if (grepl(".xlsx$", file_path)) {
         if (file_desc == "variable_storage") {
-          assign("variables_df", read_xlsx(file_path), envir = .GlobalEnv)
+          assign("variable_storage", read_xlsx(file_path), envir = .GlobalEnv)
         } else if (file_desc == "processed_data") {
           assign("students_rxn_params", read_xlsx(file_path), envir = .GlobalEnv)
         } else if (file_desc == "enzyme_properties") {
