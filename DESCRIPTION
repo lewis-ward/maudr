@@ -1,0 +1,38 @@
+Package: maudr
+Title: Generate Data for Teaching Enzyme Kinetics
+Version: 0.1.0
+Authors@R: 
+    c(
+      person("Lewis", "Ward", email = "u2283985@unimail.hud.ac.uk", role = c("aut", "cre")),
+      person("Jarek", "Bryk", email = "J.Bryk@hud.ac.uk", role = "ctb")
+    )
+Description: Tool for generating, processing and visualising enzyme kinetics data for educational use. 
+    Includes functions for assigning reaction conditions, simulating Michaelis-Menten and Lineweaver-Burk kinetics, 
+    and generating individualised PDF reports for students.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    broom,
+    dplyr,
+    fs,
+    ggplot2,
+    ggpmisc,
+    gridExtra,
+    here,
+    lubridate,
+    magrittr,
+    purrr,
+    readxl,
+    rlang,
+    tibble,
+    tidyr,
+    writexl,
+    xfun
+Suggests: 
+    usethis,
+    devtools
+Depends: 
+    R (>= 3.5)
